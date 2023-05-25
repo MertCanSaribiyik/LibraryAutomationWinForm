@@ -7,8 +7,8 @@
       <Diagram DiagramId="31c9e5acb8c04ff98f329a84a1f3f383" Name="Diagram1">
         <EntityTypeShape EntityType="LibraryAutomationModel.Personal" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="LibraryAutomationModel.User" Width="1.5" PointX="9" PointY="2.875" />
-        <EntityTypeShape EntityType="LibraryAutomationModel.Book" Width="1.5" PointX="3.75" PointY="3.5" />
-        <EntityTypeShape EntityType="LibraryAutomationModel.Record" Width="1.5" PointX="6" PointY="0.5" />
+        <EntityTypeShape EntityType="LibraryAutomationModel.Book" Width="1.5" PointX="4.125" PointY="3.125" />
+        <EntityTypeShape EntityType="LibraryAutomationModel.Record" Width="1.5" PointX="6.375" PointY="0.5" />
         <EntityTypeShape EntityType="LibraryAutomationModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" />
         <AssociationConnector Association="LibraryAutomationModel.FK__Records__book_id__4E88ABD4" />
         <AssociationConnector Association="LibraryAutomationModel.FK__Records__userr_i__4D94879B" />

@@ -17,7 +17,7 @@ namespace LibraryAutomationWinForm.Record_Operation
         public void list()
         {
             var records = from Record in db.Records select new { Record.record_id, Record.User.userr_name, Record.Book.book_name,
-                                                                 Record.startDate, Record.finishDate };
+                                                                 Record.startDate, Record.finishDate, Record.statuss };
             
             dataGridView1.DataSource = records.ToList();
         }
@@ -38,6 +38,7 @@ namespace LibraryAutomationWinForm.Record_Operation
             var record = db.Records.Where(x => x.record_id == selectedID).FirstOrDefault();
 
             record.statuss = true;
+            record.finishDate = DateTime.Today;
             db.SaveChanges();
             list();
         }
